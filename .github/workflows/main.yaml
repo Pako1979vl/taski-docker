@@ -33,6 +33,7 @@ jobs:
     - name: Test with flake8 and django tests
 
     # Добавил секретный ключ
+    # Позже сделать через секреты
     # - name: Set secret key
     #   run: echo "SECRET_KEY=${{ secrets.SECRET_KEY }}" > backend/.env
       env:
